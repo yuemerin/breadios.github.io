@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information about Bread</title>
+    <!-- Add any additional styles or meta tags as needed -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        /* Add the styles */
+
+        .jumbotron {
+            background: url("images/bg.jpg") no-repeat center center;
+            background-size: cover;
+            height: 900px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+            background-image: url(https://www.browneyedbaker.com/wp-content/uploads/2016/05/white-bread-51-600-600x400.jpg);
+            /* Update the path to your image */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Add the navbar -->
+    <nav class="navbar navbar-expand-lg navbar-tomato bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bread</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="dropdown-item" href="recipes.html">Recipes</a>
+            <a class="dropdown-item" href="socials.html">Socials</a>
+            <a class="dropdown-item" href="facts.html">Facts</a>
+        </div>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+        <div class="container">
+            <h1 class="display-3 fw-bolder text-black">Bread</h1>
+            <br>
+            <p class="fs-3 text-black"> Definition: food made of flour, water, and yeast mixed together and baked.</p>
+        </div>
+    </div>
+
+    <br>
+    <section class="bread">
+        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="bre1.jpg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="bagel.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="baguette.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="Brioche-Buns-21.jpg" class="d-block w-100" alt="Slide 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="ciabatta.jpg" class="d-block w-100" alt="Slide 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="focaccia.jpg" class="d-block w-100" alt="Slide 6">
+                </div>
+                <div class="carousel-item">
+                    <img src="Plain-Dosa.jpg" class="d-block w-100" alt="Slide 7">
+                </div>
+                <div class="carousel-item">
+                    <img src="rye_bread.jpg" class="d-block w-100" alt="Slide 8">
+                </div>
+                <div class="carousel-item">
+                    <img src="sourdough.jpg" class="d-block w-100" alt="Slide 9">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
